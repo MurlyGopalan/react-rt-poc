@@ -26,6 +26,29 @@
   color: rgb(112, 76, 182);
 }
 
+.tabHeaderDiv {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.button-basic {
+	background-color: rgb(37, 150, 190);
+	border: 2px solid black;
+	color: white;
+  margin-right: 20px;
+	padding: 1em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+	width: 22%; /* to test the test-align property */
+}
+.featureDiv {
+  margin-top: 200px;
+  margin-left: 20px;
+  align-items:left;
+  justify-content:left;
+}
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
