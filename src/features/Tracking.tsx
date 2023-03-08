@@ -1,4 +1,5 @@
 import { useVesselsQuery } from "../services/api";
+import { Menu } from "./Menu";
 
 export const  Tracking = () => {
 
@@ -6,6 +7,7 @@ export const  Tracking = () => {
 
     return (
         <div >
+            <Menu /> 
             <h1>Tracking Page !</h1>
 
             {isLoading && <h2>Loading ... </h2>}

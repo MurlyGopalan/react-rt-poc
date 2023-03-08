@@ -1,4 +1,5 @@
 import { useVesselsQuery } from "../services/api";
+import { Menu } from "./Menu";
 
 export const  Forecast = () => {
 
@@ -6,6 +7,7 @@ export const  Forecast = () => {
 
     return (
         <div>
+             <Menu />
             <h1>Forecast Page !</h1>
 
             {isLoading && <h2>Loading ... </h2>}
